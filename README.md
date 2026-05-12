@@ -1,20 +1,20 @@
-# BudgetWatch — Automated Budget Variance Monitoring System
+# BudgetWatch: Automated Budget Variance Monitoring System
 
-A portfolio project simulating a real-world budget monitoring workflow for Contoso Manufacturing (fictional). Identifies where and why budget variances are happening across 5 departments, and automates alerts so the right people are notified immediately — not at month-end.
+A portfolio project simulating a real-world budget monitoring workflow for Contoso Manufacturing (fictional). Identifies where and why budget variances are happening across 5 departments and automates alerts so the right people are notified immediately, not at month-end.
 
 ---
 
 ## Demo
 
-> 📹 **[Watch the demo video](#)** ← *(add your video link here after recording)*
+> 📹 **[Watch the demo video](#)** *(add your video link here after recording)*
 
-**Executive Overview — Page 1**
+**Executive Overview - Page 1**
 ![Executive Overview](dashboard/page1_overview.png)
 
-**Department Drill-Down — Page 2**
+**Department Drill-Down - Page 2**
 ![Department Drill-Down](dashboard/page2_drilldown.png)
 
-**Alerts Summary — Page 3**
+**Alerts Summary - Page 3**
 ![Alerts Summary](dashboard/page3_alerts.png)
 
 ---
@@ -23,7 +23,7 @@ A portfolio project simulating a real-world budget monitoring workflow for Conto
 
 - **Tracks budget vs. actuals** across 5 departments, 7 spending categories, and 12 months (420 rows of data)
 - **Visualizes variances** in an interactive Power BI dashboard with 3 pages: executive overview, department drill-down, and alerts summary
-- **Flags overspending automatically** — any category more than 10% over budget is surfaced on the Alerts page
+- **Flags overspending automatically** - any category more than 10% over budget is surfaced on the Alerts page
 - **Generates alert reports** via a Python script that can be scheduled to run on a recurring basis
 
 ---
@@ -45,25 +45,25 @@ A portfolio project simulating a real-world budget monitoring workflow for Conto
 budgetwatch/
 ├── README.md
 ├── data/
-│   ├── generate_data.py         # generates both raw and clean Excel files
-│   ├── contoso_budget_clean.xlsx  # clean data — Power BI data source
+│   ├── generate_data.py           # generates both raw and clean Excel files
+│   ├── contoso_budget_clean.xlsx  # clean data used as Power BI data source
 │   └── contoso_budget_raw.xlsx    # messy "before" version for demo context
 ├── automation/
-│   ├── budget_alert.py          # reads Excel, flags overruns, saves report
-│   └── budget_alert_output.txt  # sample output from budget_alert.py
+│   ├── budget_alert.py            # reads Excel, flags overruns, saves report
+│   └── budget_alert_output.txt    # sample output from budget_alert.py
 └── dashboard/
-    └── Budget Watch.pbix        # Power BI file (open in Power BI Desktop)
+    └── Budget Watch.pbix          # Power BI file (open in Power BI Desktop)
 ```
 
 ---
 
 ## Key Findings
 
-- **20 out of 420 rows** are flagged as >10% over budget
-- **Biggest overspend:** IT Software & Licenses in January (+50%) — annual software renewals spike
-- **Marketing** Contractor Services consistently over budget in Q3–Q4 (+11.3% annual)
-- **Operations** Travel & Entertainment overspends Q3–Q4 (+11.7% annual)
-- **HR Training** is significantly under budget in Q1–Q2 (-14.5%) — budget going unused
+- **20 out of 420 rows** are flagged as more than 10% over budget
+- **Biggest overspend:** IT Software & Licenses in January (+50%) due to annual software renewals
+- **Marketing** Contractor Services consistently over budget in Q3-Q4 (+11.3% annual)
+- **Operations** Travel & Entertainment overspends Q3-Q4 (+11.7% annual)
+- **HR Training** is significantly under budget in Q1-Q2 (-14.5%) with budget going unused
 
 ---
 
@@ -88,4 +88,5 @@ Open `dashboard/Budget Watch.pbix` in Power BI Desktop (free download at microso
 
 ## Business Value
 
-> *"The dashboard identified where and why budget variances were happening across all departments. The automated alert script ensures the right people are notified immediately instead of waiting until month-end review — so teams can course-correct while there's still time to act."*
+The dashboard identified where and why budget variances were happening across all departments. The automated alert script ensures the right people are notified immediately instead of waiting until month-end review, so teams can course-correct while there is still time to act.
+
