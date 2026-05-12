@@ -9,13 +9,13 @@ A portfolio project simulating a real-world budget monitoring workflow for Conto
 > 📹 **[Watch the demo video](#)** ← *(add your video link here after recording)*
 
 **Executive Overview — Page 1**
-*(add screenshot here)*
+![Executive Overview](dashboard/page1_overview.png)
 
 **Department Drill-Down — Page 2**
-*(add screenshot here)*
+![Department Drill-Down](dashboard/page2_drilldown.png)
 
 **Alerts Summary — Page 3**
-*(add screenshot here)*
+![Alerts Summary](dashboard/page3_alerts.png)
 
 ---
 
