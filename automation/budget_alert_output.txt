@@ -1,0 +1,14 @@
+BudgetWatch Alert — 6 items are over 10% budget threshold
+Report date: May 05, 2026
+
+Department             Category                     Month            Budget     Actual  Variance%
+-----------------------------------------------------------------------------------------------
+Human Resources        Training & Development       June         $    8,000 $    5,006     -37.4%
+Human Resources        Training & Development       May          $    8,000 $    5,469     -31.6%
+Human Resources        Training & Development       January      $    8,000 $    5,491     -31.4%
+Human Resources        Training & Development       April        $    8,000 $    5,580     -30.2%
+Human Resources        Training & Development       February     $    8,000 $    6,034     -24.6%
+Human Resources        Training & Development       March        $    8,000 $    6,461     -19.2%
+
+Source: contoso_budget_clean.xlsx
+Action required: Review flagged items with department leads.
